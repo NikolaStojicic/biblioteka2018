@@ -39,5 +39,5 @@ public class Biblioteka implements BibliotekaInterfejs {
 		}
 		return novaLista;
 	}
-
+//
 }

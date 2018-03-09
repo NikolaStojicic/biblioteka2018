@@ -28,7 +28,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(Autor autor, String isbn, String naslov, String izdavac) {
-		// Ovo je ok kom
+
 		if(naslov == null) {
 			throw new RuntimeException("Morate uneti naslov!");
 		}
@@ -40,4 +40,5 @@ public class Biblioteka implements BibliotekaInterfejs {
 		}
 		return novaLista;
 	}
+//
 }
